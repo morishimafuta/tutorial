@@ -17,3 +17,30 @@ __もっと強調します__
 [googleの検索フォーム](https://www.google.co.jp/)
 
 画像も行ける．
+
+![endeavorのロゴ](https://github.com/morishimafuta/tutorial/blob/main/tutorial.png)
+
+## コードを貼る
+readmeファイル中にコードを貼ることもできる．
+
+    int a,b,r,temp;
+    a = 10 //なにがしかの自然数
+    b = 60 //なにがしかの自然数
+    
+    if(a<b){
+      tmp = a;
+      a = b;
+      b = tmp;
+     }
+     r = a % b;
+     
+     while(r!=0){
+      a = b;
+      b = r;
+      r = a % b;
+    }
+    
+    cout << b <<endl;
+
+みたいな感じ．
+      
